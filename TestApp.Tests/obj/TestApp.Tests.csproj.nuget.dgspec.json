@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.BL\\TestApp.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.BL\\TestApp.BL.csproj",
+        "projectName": "TestApp.BL",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.BL\\TestApp.BL.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Core\\TestApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Core\\TestApp.Core.csproj"
+              },
+              "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.DI\\TestApp.DI.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.DI\\TestApp.DI.csproj"
+              },
+              "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Shared\\TestApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Shared\\TestApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Core\\TestApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Core\\TestApp.Core.csproj",
+        "projectName": "TestApp.Core",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Core\\TestApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.DI\\TestApp.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.DI\\TestApp.DI.csproj",
+        "projectName": "TestApp.DI",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.DI\\TestApp.DI.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.10, )"
+            },
+            "Unity.RegistrationByConvention": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Shared\\TestApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Shared\\TestApp.Shared.csproj",
+        "projectName": "TestApp.Shared",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Shared\\TestApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
+        "projectName": "TestApp.Tests",
+        "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
+        "packagesPath": "C:\\Users\\Jenia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jenia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.BL\\TestApp.BL.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.BL\\TestApp.BL.csproj"
+              },
+              "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Core\\TestApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Core\\TestApp.Core.csproj"
+              },
+              "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Shared\\TestApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Jenia\\source\\repos\\TestApp\\TestApp.Shared\\TestApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
